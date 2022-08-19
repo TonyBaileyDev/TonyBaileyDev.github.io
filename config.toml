@@ -27,17 +27,18 @@ paginate = 8
 #    weight = 4
 
 [params]
-  author = "John Doe"
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  author = "Tony Bailey"
+  description = "A developer"
+  avatar = "/images/tony.jpeg"
   menu_item_separator = " - "
   [[params.social]]
     icon = "github"
     name = "Github"
-    url = "https://github.com/gohugoio"
+    url = "https://github.com/tonybaileydev"
   [[params.social]]
     icon = "twitter"
     name = "Twitter"
-    url = "https://twitter.com/gohugoio"
+    url = "https://twitter.com/tonybaileydev"
 
   # Default theme
   #[params.style]

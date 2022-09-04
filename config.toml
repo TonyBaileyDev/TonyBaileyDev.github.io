@@ -44,8 +44,8 @@ paginate = 8
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/tonybaileydev"
 
-  [taxonomies]
-   tag = "tags"
+[taxonomies]
+  tag = "tags"
 
   # Default theme
   #[params.style]

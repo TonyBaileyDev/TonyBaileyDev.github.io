@@ -20,11 +20,11 @@ paginate = 8
 #    name = "Tags"
 #    url = "/tags/"
 #    weight = 3
-#  [[menu.main]]
-#    identifier = "posts"
-#    name = "Posts"
-#    url = "/posts/"
-#    weight = 4
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
 
 [params]
   author = "Tony Bailey"
@@ -39,6 +39,13 @@ paginate = 8
     icon = "twitter"
     name = "Twitter"
     url = "https://twitter.com/tonybaileydev"
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/tonybaileydev"
+
+  [taxonomies]
+   tag = "tags"
 
   # Default theme
   #[params.style]

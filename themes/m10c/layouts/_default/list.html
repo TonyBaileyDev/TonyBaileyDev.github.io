@@ -5,12 +5,28 @@
       {{ range where .Paginator.Pages "Type" "!=" "page" }}
         <li class="posts-list-item">
           <a class="posts-list-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
+          <div class="posts-list-item-summary">
+            {{ .Summary }}
+            <!-- {{ if .Truncated }}
+              <div><a href="{{ .RelPermalink }}">Continue reading</a></div>
+            {{ end }} -->
+          </div>
           <span class="posts-list-item-description">
             {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
             {{ .PublishDate.Format "Jan 2, 2006" }}
             -
             {{ partial "icon.html" (dict "ctx" $ "name" "clock") }}
             {{ .ReadingTime }} min read
+            {{- with .Params.tags }}
+            <div>
+              {{ partial "icon.html" (dict "ctx" $ "name" "tag") }}
+              {{- range . -}}
+                {{ with $.Site.GetPage (printf "/%s/%s" "tags" . ) }}
+                  <a class="tag" href="{{ .Permalink }}">{{ .Title }}</a>
+                {{- end }}
+              {{- end }}
+            </div>
+            {{- end }}
           </span>
         </li>
       {{ end }}

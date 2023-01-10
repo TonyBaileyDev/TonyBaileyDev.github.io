@@ -4,7 +4,7 @@ title = "Welcome"
 
 Hi, I'm Tony.
 
-Currently working as a senior engineer at [Citrix](https://citrix.com/).
+Currently working as a senior engineer at [Citrix](https://citrix.com/), part of [Cloud Software Group](https://www.cloud.com/).
 
 ### Ask me about 
 - .NET
@@ -13,7 +13,6 @@ Currently working as a senior engineer at [Citrix](https://citrix.com/).
 - Continuous Delivery
 - Agile
 - The engineering career
-- Work life balance
 
 ### Also ask me about
 - Board games

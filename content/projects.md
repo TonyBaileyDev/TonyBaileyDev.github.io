@@ -1,0 +1,21 @@
++++
+title = "Projects"
++++
+
+Some things I'm working on.
+
+### TonyBaileyDev.github.io
+-  [Gitub Repository](https://github.com/TonyBaileyDev/TonyBaileyDev.github.io)
+-  Published to https://tonybailey.dev (this site!)
+- Uses:
+  - [Hugo](https://gohugo.io/)
+  - Markdown
+  - [Github Actions](https://github.com/features/actions)
+
+### Svelte Playground
+-  [Gitub Repository](https://github.com/TonyBaileyDev/svelte-playground)
+-  Published to https://svelte-playground.tonybailey.dev
+- Uses:
+  - [Svelte](https://svelte.dev/)
+  - Typescript / Javascript
+  - [Digital Ocean](https://www.digitalocean.com/)

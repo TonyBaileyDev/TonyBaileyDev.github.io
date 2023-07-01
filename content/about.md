@@ -4,7 +4,7 @@ title = "About me"
 
 Cambridge, UK.
 
-Citrix.
+Citrix / Cloud Software Group.
 
 Southampton University.
 

@@ -25,11 +25,6 @@ paginate = 8
 #    name = "Posts"
 #    url = "/posts/"
 #    weight = 4
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    weight = 5
 
 [params]
   author = "Tony Bailey"
@@ -48,9 +43,21 @@ paginate = 8
     icon = "linkedin"
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/tonybaileydev"
+  [[params.social]]
+    icon = "mail"
+    name = "Email"
+    url = "mailto:tony@tonybailey.dev"
 
 [taxonomies]
   tag = "tags"
+
+  # Current theme
+  [params.style]
+    darkestColor = "#dd6e42"
+    darkColor = "#4f6d7a"
+    lightColor = "#c0d6df"
+    lightestColor = "#eaeaea"
+    primaryColor = "#e8dab2"
 
   # Default theme
   #[params.style]

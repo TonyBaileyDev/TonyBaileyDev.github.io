@@ -4,8 +4,6 @@ title = "Welcome"
 
 Hi, I'm Tony.
 
-Currently working as a staff engineer at [Citrix](https://citrix.com/), part of [Cloud Software Group](https://www.cloud.com/).
-
 #### TonyBaileyDev.github.io
 -  [Gitub Repository](https://github.com/TonyBaileyDev/TonyBaileyDev.github.io)
 -  Published to https://tonybailey.dev (this site!)

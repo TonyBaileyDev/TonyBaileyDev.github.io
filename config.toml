@@ -51,13 +51,20 @@ paginate = 8
 [taxonomies]
   tag = "tags"
 
-  # Current theme
   [params.style]
-    darkestColor = "#dd6e42"
-    darkColor = "#4f6d7a"
-    lightColor = "#c0d6df"
-    lightestColor = "#eaeaea"
-    primaryColor = "#e8dab2"
+    darkestColor = "#ffffff"
+    darkColor = "#ffffff"
+    lightColor = "#000000"
+    lightestColor = "#000000"
+    primaryColor = "#000000"
+
+  # Orangey
+  #[params.style]
+  #  darkestColor = "#dd6e42"
+  #  darkColor = "#4f6d7a"
+  #  lightColor = "#c0d6df"
+  #  lightestColor = "#eaeaea"
+  #  primaryColor = "#e8dab2"
 
   # Default theme
   #[params.style]

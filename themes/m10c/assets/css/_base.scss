@@ -27,6 +27,14 @@ a {
   }
 }
 
+.app-container a {
+  text-decoration: underline;
+}
+
+.app-header-menu a {
+  font-weight: bold;
+}
+
 // Browsers seem to use a smaller default font-size with monospaced code
 // blocks (like 80% of the size of normal text) and that looks pretty bad with
 // small inline code-blocks in the middle of normal text (mainly because of

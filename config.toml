@@ -36,10 +36,6 @@ theme = "m10c"
     name = "Github"
     url = "https://github.com/tonybaileydev"
   [[params.social]]
-    icon = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/tonybaileydev"
-  [[params.social]]
     icon = "linkedin"
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/tonybaileydev"

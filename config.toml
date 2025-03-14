@@ -2,7 +2,7 @@ baseURL = 'https://tonybailey.dev/'
 languageCode = 'en-us'
 title = 'Tony Bailey'
 theme = "m10c"
-paginate = 8
+#paginate = 8
 
 [menu]
   [[menu.main]]
